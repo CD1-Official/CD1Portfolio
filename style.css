@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background: #0f0f1a;
+  color: #f0f0f0;
+}
+
+header.hero {
+  text-align: center;
+  padding: 4rem 2rem;
+  background: linear-gradient(to right, #ff6b00, #8e2de2);
+}
+
+.logo {
+  width: 120px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 3rem;
+  margin: 0.5rem 0;
+}
+
+.cta-buttons a {
+  display: inline-block;
+  margin: 1rem;
+  padding: 0.75rem 1.5rem;
+  background: #00ffd5;
+  color: #000;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+section {
+  padding: 3rem 2rem;
+  max-width: 900px;
+  margin: auto;
+}
+
+.skills .skill-grid {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.skill-grid div {
+  flex: 1;
+  background: #1a1a2e;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1rem;
+}
+
+.tile {
+  background: #292947;
+  padding: 1rem;
+  border-radius: 8px;
+  text-align: center;
+  font-weight: bold;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+input, textarea {
+  padding: 0.75rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+button {
+  padding: 0.75rem;
+  background: #ff6b00;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  padding: 2rem;
+  background: #111;
+  font-size: 0.9rem;
+}
